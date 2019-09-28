@@ -1,0 +1,2 @@
+include ':app', ':lazypreference'
+rootProject.name='Lazy'
