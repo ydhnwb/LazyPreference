@@ -5,11 +5,10 @@ how to use
 in Gradle Project Files, add this line
 ```
 allprojects {
-		repositories {
-			...
-			maven { url 'https://jitpack.io' }
-		}
+	repositories {	
+		maven { url 'https://jitpack.io' }
 	}
+}
 ```
 
 and the in Gradle App
