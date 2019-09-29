@@ -21,8 +21,9 @@ and the in Gradle App
 use it in your activity / fragment
 
 ```
- private val pref = LazyPreference(this@MainActivity, "USER").build()
- 
+ private var pref = LazyPreference.Builder(this@MainActivity, "USER").build()
+
+
  onCreate(....){
  	//this is just an example
 	pref.setString("STRING", "example")
